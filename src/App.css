@@ -7,6 +7,124 @@
   pointer-events: none;
 }
 
+.page{
+  width: 100vw;
+  max-height: 100vh;
+  display: flex;
+}
+
+.nav{
+  padding:1vh;
+  width: 2vw;
+  height: 98vh;
+  background-color: #282c34;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  color:white;
+}
+
+.sidebar{
+  width: 18vw;
+  border-right: green solid 1px;
+}
+
+.profile{
+  display: flex;
+  padding-left:2vw;
+  padding-right: 2vw;
+  margin-top: 2vw;
+  font-size: 1.1vw;
+}
+
+.user-details{
+  display:flex;
+  flex-flow: column;
+}
+.email{
+  font-size: 1vw;
+  color: #282c34;
+}
+.user-avtar{
+  width: 3vw;
+  height: 3vw;
+  margin-right: 1vw;
+  border:green solid 1px;
+  border-radius: 30px;
+}
+
+.category{
+  display: flex;
+  flex-wrap:wrap;
+  background-color:#F0F0F0;
+  padding:1vw 1vw 0 1vw;
+  margin-top: 3vw;
+}
+
+.pills{
+  display: flex;
+  height: fit-content;
+  flex-flow: row;
+  margin-left: 1vw;
+  margin-bottom: 1vw;
+
+}
+
+.category-name, .category-count{
+  padding-left:.8vw;
+  padding-right:.8vw;
+  padding-top:.5vw;
+  padding-bottom:.5vw;
+  border-radius: 4px;
+  font-size: .8vw;
+}
+
+.blue{
+  background-color: blue;
+  color:white;
+}
+
+.green{
+  background-color: green;
+  color:white;
+}
+
+.purple{
+  background-color: purple;
+  color:white;
+}
+
+.orange{
+  background-color: orange;
+  color:white;
+}
+
+.blue-border{
+  border: blue solid 1px;
+  border-radius: 4px;
+}
+
+.green-border{
+  border: green solid 1px;
+  border-radius: 4px;
+}
+
+.orange-border{
+  border: orange solid 1px;
+  border-radius: 4px;
+}
+
+
+.purple-border{
+  border: purple solid 1px;
+  border-radius: 4px;
+}
+
+.white{
+  background-color: white;
+  color: black;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
