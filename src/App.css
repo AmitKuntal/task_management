@@ -199,6 +199,67 @@
   padding: 0.2vw;
 }
 
+.task-controls{
+  margin-top: 1vw;
+  padding: 1.5vw;
+  padding-left: 3vw;
+  border-bottom: 2px solid #e8e8e8;
+  width: 75vw;
+}
+
+.view-title{
+  margin-left: 1vw;
+  font-size: 1.5vw;
+}
+
+.task-form{
+  padding:4vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.task-control{
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 1vw;
+}
+
+.form-label{
+  color: gray;
+  margin-bottom: .6vw;
+}
+.text{
+  background-color: #F0F0F0;
+  border: none;
+  font-size: 1vw;
+  padding:.6vw;
+  border-radius: 5px;
+}
+
+.subcontrol{
+  display: flex;
+}
+
+.subcontrol > button{
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.task-control > .date{
+  font-size: 1vw;
+  padding: 0.5vw;
+  margin-left: 0;
+}
+
+.task-button >.button{
+  margin-top:3vw;
+  margin-right: 3vw;
+  margin-left: 0;
+  
+}
 .blue{
   background-color: blue;
   color:white;
