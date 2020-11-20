@@ -216,7 +216,6 @@
   padding:4vw;
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
   width: 30%;
 }
 
@@ -304,6 +303,10 @@
 .white{
   background-color: white;
   color: black;
+}
+
+.form{
+  display: flex;
 }
 
 @media (prefers-reduced-motion: no-preference) {

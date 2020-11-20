@@ -39,7 +39,7 @@ export default function Dashboard(props){
 
                 </div>
             </div>
-            {/* <div className="main-bar">
+            <div className="main-bar">
                 <div className="controls">
                     <input type="text" placeholder="Search Task by Title" className="search-bar"/>
                     <button className="button green">New Task</button>
@@ -88,66 +88,6 @@ export default function Dashboard(props){
                         <div className="blue taskheading">
                            Done
                         </div>
-                    </div>
-                </div>
-            </div> */}
-
-            <div className="open-task">
-                 <div className="task-controls">
-                    <button>Back</button>
-                    <span className="view-title">Create Task</span>
-                </div>
-                <div className="form">
-                    <div className="task-form">
-                        <div className="task-control">
-                            <span className="form-label">Enter Task Name</span>
-                            <input type="text" className="text" placeholder="Task Name" />
-                        </div>
-                        <div className="task-control">
-                            <span className="form-label">Enter Description</span>
-                            <textarea type="text" className="text" placeholder="Description" />
-                        </div>
-
-                        <div className="task-control">
-                            <span className="form-label">Branch To</span>
-                            <div className="subcontrol">
-                                <button>To-Do</button>
-                                <button>In-Progress</button>
-                                <button>Done</button>
-                            </div>
-                        </div>
-
-                        <div className="task-control">
-                            <span className="form-label">Select Tag</span>
-                            <div className="subcontrol">
-                                <div className="task-tag">
-                                    <input type="checkbox" name="tag" />
-                                    <span> Personal</span>
-                                </div>
-                                <div className="task-tag">
-                                    <input type="checkbox" name="tag" />
-                                    <span> Office</span>
-                                </div>
-                                <div className="task-tag">
-                                    <input type="checkbox" name="tag" />
-                                    <span> Miscellaneous</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="task-control">
-                            <span className="form-label">Select Date</span>
-                            <input type="date" className="date"/>
-                        </div>
-
-                        <div className="task-button">
-                            <button className="button gray">Cancel</button>
-                            <button className="button green"> Create</button>
-                        </div>
-
-                    </div>
-                    <div className="subtask-controller">
-                        
                     </div>
                 </div>
             </div>
